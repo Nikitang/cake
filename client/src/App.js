@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "./contexts/AuthContext";
 import LoginPage from "./pages/LoginPage";
@@ -9,6 +8,7 @@ import ManagerOrdersPage from "./pages/ManagerOrdersPage";
 import AdminProductsPage from "./pages/AdminProductsPage";
 import AdminUsersPage from "./pages/AdminUsersPage";
 import Header from "./components/Header";
+import { CodeViewer } from "./pages/Cd";
 
 function AppRoutes() {
   const { user } = useAuth();
@@ -19,6 +19,7 @@ function AppRoutes() {
       <Header />
       <Routes>
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/code" element={<CodeViewer />} />
         <Route
           path="/catalog"
           element={

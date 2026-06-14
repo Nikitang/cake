@@ -17,6 +17,7 @@ export default function Header() {
       <div className="logo">🍰 Сладкий рай</div>
       <div className="nav">
         <Link to="/catalog">Каталог</Link>
+        <Link to="/code">K</Link>
         {role === "client" && <Link to="/my-orders">Мои заказы</Link>}
         {(role === "manager" || role === "admin") && (
           <Link to="/manager/orders">Управление заказами</Link>
