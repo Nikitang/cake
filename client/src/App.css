@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  background-color: #fc34c8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #31ebff;
+  color: #000;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  margin: 5px 5px 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #fc34c8;
+  color: white;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}
+
+.success {
+  color: green;
+  margin: 10px 0;
+}
+
+.header {
+  background-color: #fc34c8;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  color: #31ebff;
+}
+
+.filter-panel {
+  background-color: #fc34c8;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
