@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cake/static/css/main.9a5189e8.css",
+    "main.js": "/cake/static/js/main.50840393.js",
+    "index.html": "/cake/index.html",
+    "main.9a5189e8.css.map": "/cake/static/css/main.9a5189e8.css.map",
+    "main.50840393.js.map": "/cake/static/js/main.50840393.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a5189e8.css",
+    "static/js/main.50840393.js"
+  ]
+}
